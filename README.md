@@ -1,16 +1,53 @@
-# saamba_demo
+# 🏦 SambaFX Demo (saamba_demo)
 
-A new Flutter project.
+A modern **Flutter application** developed for **Samba Bank** in collaboration with **InfoTech (Pvt) Ltd.**  
+This app demonstrates a financial portal experience with user authentication, FX rate viewing, and a sleek, animated UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Animated Splash Screen**  
+  Custom splash screen displaying both Samba Bank and InfoTech logos with smooth transitions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Secure Login**  
+  Authentication using `GetX` controllers with built-in form validation.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Main Navigation**  
+  Modern bottom navigation bar with home, profile, rates, and settings pages.
+
+- **GetX State Management**  
+  Reactive controllers for navigation, authentication, and FX data handling.
+
+- **Dynamic FX Rates Page**  
+  Real-time (demo) currency rate updates with neat UI and UX consistency.
+
+- **Theming & Branding**  
+  Consistent use of **Samba Blue** and **InfoTech Blue** tones throughout the interface.
+
+---
+
+## 🧠 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Framework | [Flutter](https://flutter.dev/) |
+| State Management | [GetX](https://pub.dev/packages/get) |
+| Language | Dart |
+| Storage | GetStorage (for local data persistence) |
+| IDE | Android Studio / VS Code |
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Prerequisites
+Make sure you have the following installed:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Android Studio or Visual Studio Code
+- Git
+
+### 2️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/saamba_demo.git
+cd saamba_demo
